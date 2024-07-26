@@ -26,7 +26,7 @@ A simple but fun project with lots of tiny changes in the design as you create p
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/monicaivanov/Receipe-main-page.git]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
