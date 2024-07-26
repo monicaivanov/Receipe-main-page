@@ -27,7 +27,7 @@ A simple but fun project with lots of tiny changes in the design as you create p
 ### Links
 
 - Solution URL: [https://github.com/monicaivanov/Receipe-main-page.git]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://monicaivanov.github.io/Receipe-main-page/]
 
 ## My process
 I start with creating the wireframe of the HTML doc, plan my semantic elements and I style it from bigger blocks to smaller elements, top to bottom. I try to use relative elements as much as possible to have a responsive outcome.  
