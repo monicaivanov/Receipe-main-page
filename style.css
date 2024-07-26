@@ -1,0 +1,158 @@
+/* Global view */
+
+body,
+html {
+  height: 100%;
+  display: grid;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  max-width: 1440px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.wrapper {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+  border-radius: 1.25rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+}
+
+summary {
+  margin-bottom: 1.25rem;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2%;
+  border-radius: 0.6rem;
+}
+
+.title {
+  font-weight: 700;
+}
+
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.193);
+}
+
+li {
+  margin: 0.6rem;
+}
+
+ul,
+ul li {
+  padding-left: 1em;
+}
+
+ol,
+ol li {
+  padding-left: 1em;
+}
+
+ol li {
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 800;
+  padding-left: 0;
+  padding-right: 1.25rem;
+  margin-right: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+}
+
+th,
+td {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  text-align: left;
+}
+
+th {
+  font-weight: normal;
+  padding-left: 2rem;
+}
+
+td {
+  font-weight: 800;
+  color: hsl(14, 45%, 36%);
+}
+.lastRow {
+  border: none;
+}
+
+/* Tablet view, portrait and landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .wrapper {
+    width: 60%;
+  }
+}
+
+/* Mobile view, portrait and landscape */
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  html,
+  body {
+     background-color: white;
+  }
+
+  .wrapper {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
